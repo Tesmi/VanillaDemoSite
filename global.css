@@ -1,0 +1,33 @@
+.global-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 150px;
+}
+
+.global-container .heading {
+  font-family: "Rubik";
+  font-weight: bold;
+  font-size: 28px;
+  color: #0b132a;
+  line-height: 0;
+  margin-top: 17px;
+}
+
+.global-container .subtitle {
+  font-family: "Rubik";
+  font-weight: 400;
+  color: #4f5665;
+  line-height: 0;
+}
+
+.map {
+  margin-top: 140px;
+  width: 67%;
+}
+
+.sponsors {
+  margin-top: 140px;
+  width: 70%;
+}

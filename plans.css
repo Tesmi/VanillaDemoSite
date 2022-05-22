@@ -1,0 +1,130 @@
+.plans-container {
+  background-color: linear-gradient(#fdfdfd, #fff);
+  padding-top: 80px;
+}
+
+.plans-container .heading-section {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading-section h2 {
+  font-family: "Rubik";
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.heading-section p {
+  font-family: "Rubik";
+  font-size: 17px;
+  line-height: 0;
+  margin-top: 10px;
+  color: #4f5665;
+}
+.plans {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+  /* border: 1px solid red; */
+  margin-top: 50px;
+  margin-left: 20%;
+}
+
+.select-plan {
+  padding-top: 80px;
+  display: flex;
+  width: 330px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 15px;
+  border: 2px solid #dddddd;
+  height: 600px;
+}
+
+.select-plan:hover {
+  cursor: pointer;
+  border: 2px solid #f53838;
+}
+
+.plan-info {
+  margin-top: -20px;
+  text-align: center;
+  height: 400px !important;
+}
+
+.plan-info img {
+  width: 144px;
+}
+
+.plan-info h2 {
+  text-align: center;
+  font-family: "Rubik";
+  font-style: normal;
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.plan-info p {
+  text-align: left !important;
+  font-family: "Rubik";
+  font-size: 16px;
+}
+
+.plan-info p img.tick {
+  margin-right: 10px;
+  width: 15px;
+}
+
+.select-btn-container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+
+  height: 200px;
+}
+
+.select-btn-container h2 {
+  line-height: 0;
+  margin-top: 10px;
+  font-family: "Rubik";
+}
+
+.plan-select-btn {
+  border-radius: 25px;
+  border: 2px solid #f53838;
+  width: 155px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  text-align: center;
+  padding: 7px 0;
+}
+
+.plan-select-btn:hover {
+  border: 2px solid #f53838;
+  background-color: #f53838;
+}
+
+.plan-select-btn:hover > h2 {
+  color: white;
+}
+
+.plan-select-btn h2 {
+  margin-top: 11px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #f53838;
+}

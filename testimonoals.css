@@ -1,0 +1,122 @@
+.tmonial-container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -50px;
+}
+
+.tmonial-container h1 {
+  line-height: 0;
+  font-family: "Rubik";
+  font-weight: bold;
+}
+
+.tmonial-container p {
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 16px;
+  color: #4f5665;
+  line-height: 0;
+  margin-top: 10px;
+}
+
+.testimonials {
+  width: 1220px;
+  margin-top: 80px;
+  /* padding: -10px 60px; */
+}
+
+.MS-content {
+  width: 1070px;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.user-section {
+  border: 2px solid #ddd;
+  border-radius: 20px;
+  display: flex;
+  min-width: 300px;
+  flex-direction: column;
+  height: 220px !important;
+  margin-left: 23px;
+  padding: 20px;
+}
+
+.user-section .user {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.user img {
+  border-radius: 10px;
+  width: 45px;
+  height: 45px;
+  margin-top: 10px;
+}
+.user .heading {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.user .heading h4 {
+  margin-top: 15px;
+  font-family: "Rubik";
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 25px;
+}
+
+.user .heading p {
+  font-size: 12px;
+  line-height: 0;
+  margin-top: -10px;
+  margin-left: 25px;
+}
+
+.user p {
+  font-family: "Rubik";
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 80px;
+  margin-right: 6px;
+}
+
+.user .star {
+  margin-top: 25px;
+  width: 14px;
+  height: 14px;
+}
+
+.user-quote {
+  margin-top: 20px;
+}
+
+.user-quote p {
+  font-family: "Rubik";
+  font-weight: 400;
+  color: #0b132a;
+  line-height: 30px;
+  font-size: 16px;
+}
+
+.MS-controls button:hover {
+  cursor: pointer;
+}
+
+.MS-controls button i {
+  font-size: 18px;
+  border: 2px solid #f53838;
+  color: #f53838;
+  padding: 17px;
+  border-radius: 50px;
+}

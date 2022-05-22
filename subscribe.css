@@ -1,0 +1,51 @@
+.subscribe {
+  margin-top: 180px;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-container {
+  padding: 25px 40px;
+  width: 55%;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: row;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 40px 40px -7px;
+}
+
+.sub-container .left {
+  width: 50%;
+}
+
+.sub-container .right {
+  width: 50%;
+}
+
+.left h1 {
+  font-family: "Rubik";
+  line-height: 0;
+  margin-top: 45px;
+}
+.left p {
+  font-family: "Rubik";
+  font-size: 16px;
+  color: #4f5665;
+  margin-top: 40px;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right div {
+  margin-top: -1px;
+  margin-left: 110px;
+}
+
+.right div:hover {
+  cursor: pointer;
+}

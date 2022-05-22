@@ -1,0 +1,70 @@
+.footer {
+  display: flex;
+  flex: 1;
+  background-color: #f8f8f8;
+  margin-top: -100px;
+  padding-bottom: 100px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin-left: 10%;
+  padding-top: 240px;
+}
+
+.l1 {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding-left: 190px;
+}
+
+.l1 h3 {
+  font-family: "Rubik";
+  font-size: 16px;
+  line-height: 0;
+  margin-top: 8px;
+  font-weight: 400;
+}
+
+.r1 {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.social {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.social img {
+  margin-right: 20px;
+}
+
+.l1 p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #afb5c0;
+  font-family: "Rubik";
+  margin-top: 40px;
+  margin-left: 8px;
+}
+
+.r1 div {
+  margin-right: 80px;
+}
+
+.r1 {
+  font-family: "Rubik";
+}
+.norm-txt {
+  color: #4f5665;
+  font-family: "Rubik";
+  margin-bottom: 10px;
+  font-size: 16px;
+}

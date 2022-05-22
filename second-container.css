@@ -1,0 +1,124 @@
+.second-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* border: 1px solid gray; */
+  width: 85%;
+  margin-left: 7.5%;
+  margin-top: 110px;
+  padding-left: 2.8rem;
+}
+
+.first-section,
+.second-section {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+
+.first-section {
+  padding: 0 8% 0 0;
+}
+
+.second-section {
+  padding: 0 0 0 8%;
+}
+
+.first-section h1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 10px;
+}
+
+.first-section p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  font-family: "Rubik";
+  font-style: normal;
+  color: #4f5665;
+}
+
+.illustration-1-img {
+  width: 611px;
+  height: 382px;
+}
+.get-started-btn {
+  font-family: "Rubik";
+  font-style: normal;
+  border: 1px solid #f53838;
+  border-radius: 10px;
+  font-weight: 700;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 200px;
+  padding: 15px;
+  background-color: #f53838;
+  color: white;
+  margin-top: 40px;
+  box-shadow: rgba(245, 56, 56, 0.2) 0px 40px 40px -7px;
+}
+
+.stats-container {
+  width: 78%;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  border-radius: 10px;
+  padding: 10px 0;
+  height: 135px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 40px 40px -2px;
+  margin-left: 10%;
+  margin-top: 120px;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid aqua; */
+}
+
+.right-border {
+  border-right: 2px solid #eeeff2;
+}
+.stats {
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+.stats-ico {
+  /* border: 1px solid green; */
+  width: 42%;
+  text-align: right;
+}
+.stats-ico img {
+  width: 60px;
+}
+.stats-info {
+  /* border: 1px solid red; */
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding-left: 30px;
+  margin-top: -15px !important;
+}
+.stats-info p {
+  text-align: left;
+  line-height: 0px;
+  font-size: 22px;
+  margin-bottom: 7px;
+  font-family: "Rubik";
+  font-style: normal;
+}
+.stats-info .primary-txt {
+  font-weight: 1000;
+}
+.stats-info .second-txt {
+  font-weight: 400;
+}
+

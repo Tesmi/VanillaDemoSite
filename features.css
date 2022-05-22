@@ -1,0 +1,65 @@
+.features-container {
+  margin-top: 40px;
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+.features-container .img-container,
+.feature-desc {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.features-container .img-container img {
+  width: 500px;
+}
+
+.feature-desc {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 140px;
+  padding-top: 110px;
+}
+
+.feature-desc h2 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 0px;
+  margin-top: 15px;
+}
+.feature-desc p {
+  font-family: "Rubik";
+  font-size: 16px;
+  color: #4f5665;
+  line-height: 0;
+  margin-top: 10px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: -5px !important;
+}
+
+.features-container .feature img {
+  width: 25px;
+  margin-right: 10px;
+  margin-top: 4px;
+}
+.features-container .feature p {
+  font-size: 12px;
+  font-family: "Rubik";
+  color: #4f5665;
+}
